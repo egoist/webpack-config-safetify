@@ -1,6 +1,6 @@
 {
   "name": "webpack-config-safetify",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Safetify webpack config",
   "license": "MIT",
   "repository": "egoist/webpack-config-safetify",

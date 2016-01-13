@@ -7,7 +7,7 @@ module.exports = function safetify(config) {
 		throw new TypeError('Expect an object but got ' + typeof config)
 	}
 	config.resolve = setDefaultValue(config.resolve, {})
-	config.resolve.extenstions = setDefaultValue(config.resolve.extenstions, ['', '.js'])
+	config.resolve.extensions = setDefaultValue(config.resolve.extensions, ['', '.js'])
 
 	config.resolveLoader = setDefaultValue(config.resolveLoader, {})
 	config.resolveLoader.modulesDirectories = setDefaultValue(config.resolveLoader.modulesDirectories, [])
